@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node api.js && vite dev --port 8080",
-    "build": "node api.js && vite build",
+    "dev": "vite dev --port 8080",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
